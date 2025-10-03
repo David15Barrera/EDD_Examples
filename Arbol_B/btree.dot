@@ -1,0 +1,10 @@
+digraph BTree {
+  node [shape=record];
+  node0x5919f66c2380 [label="Hamburguesa | Sushi"];
+  node0x5919f66c2380 -> node0x5919f66c22b0;
+  node0x5919f66c22b0 [label="Burrito | Ensalada"];
+  node0x5919f66c2380 -> node0x5919f66c2520;
+  node0x5919f66c2520 [label="Lasagna | Pizza | Ramen"];
+  node0x5919f66c2380 -> node0x5919f66c2450;
+  node0x5919f66c2450 [label="Taco"];
+}
