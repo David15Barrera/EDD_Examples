@@ -1,21 +1,25 @@
 # EDD_Examples
 Examples used for Edd's class
 
-# 🌳 Implementación del Árbol B (B-Tree) en C++
+# B-Tree Implementation in C++
 
-Este proyecto presenta una implementación didáctica de un **Árbol B** de orden mínimo **t=2** en C++. Esta estructura de datos auto-balanceada se utiliza para almacenar y gestionar claves alfabéticas (`std::string`), simulando un menú de platillos.
+This project presents an educational implementation of a minimum-order **t=2** B-Tree in C++. This self-balancing data structure is used to store and manage alphabetical keys (`std::string`), simulating a menu of dishes.
 
-El Árbol B garantiza que las operaciones de búsqueda e inserción se realicen de manera eficiente, manteniendo la estructura balanceada automáticamente mediante el proceso de división de nodos.
+The B-Tree ensures that search and insertion operations are performed efficiently, keeping the structure automatically balanced through the process of node splitting.
 
 ---
 
-## Configuración y Compilación
+## Configuration and Compilation
 
-Para compilar y ejecutar el proyecto, necesitarás un compilador de C++ (como g++).
+To compile and run the project, you will need a C++ compiler (such as g++).
 
-### Pasos de Compilación
+### Project Requirements
+1. **C++ Compiler:** `g++` or another modern compiler is required.
+2. **Graphviz (Optional):** Required if you want to generate visual tree diagrams (see **Visualization** section).
 
-Asumiendo que has guardado la implementación del árbol en un archivo llamado `BTree.cpp`, compila ambos archivos fuente (`main.cpp` y `BTree.cpp`) y enlázalos:
+### Compilation Steps
+
+Assuming you have saved the tree implementation in a file named `BTree.cpp`, compile both source files (`main.cpp` and `BTree.cpp`) and link them:
 
 ```bash
 g++ main.cpp BTree.cpp -o arbolB
